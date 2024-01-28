@@ -8,7 +8,7 @@ def analizador_lexico(codigo_fuente):
     tipo = {'int', 'float', 'void'}
     palabras_reservadas = {'if': '19', 'while': '20', 'return': '21', 'else': '22'}
 
-    i = 0  # Índice actual en el código fuente
+    i = 0
 
     def agregar_token(simbolo, tipo, valor):
         tokens.append((simbolo, tipo, valor))
@@ -111,8 +111,7 @@ def analizador_lexico(codigo_fuente):
                 continue
             else:
                 buffer += caracter
-
-        # Agrega aquí los demás estados...
+                
         elif estado_actual == 7:  # Estado para operadores relacionales
                 if caracter == '=':
                     buffer += caracter
@@ -169,7 +168,7 @@ def analizador_lexico(codigo_fuente):
                     buffer = ""
                     estado_actual = 0
             
-        i += 1  # Avanzar al siguiente caracter
+        i += 1
 
     return tokens
 
