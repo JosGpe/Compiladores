@@ -173,7 +173,7 @@ def analizador_lexico(codigo_fuente):
     return tokens
 
 def imprimir_tokens(tokens):
-    headers = ["Tipo", "Código", "Valor"]
+    headers = ["Simbolo", "Código", "Valor"]
     data = [(token[0], token[1], token[2]) for token in tokens]
     print(tabulate(data, headers=headers, tablefmt="grid"))
 
