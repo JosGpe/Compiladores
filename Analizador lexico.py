@@ -167,7 +167,26 @@ def analizador_lexico(codigo_fuente):
                     buffer += caracter
                     buffer = ""
                     estado_actual = 0
-            
+
+        if i == len(codigo_fuente) - 1:
+            if estado_actual == 1:
+                if buffer in palabras_reservadas:
+                    agregar_token("Palabra reservada", palabras_reservadas[buffer], buffer)
+                elif buffer in tipo:
+                    agregar_token("Tipo", "4", buffer)
+                else:
+                    agregar_token("Identificador", "0", buffer)
+            elif estado_actual == 2:
+                agregar_token("Entero", "1", int(buffer))
+            elif estado_actual == 3:
+                agregar_token("Real", "2", float(buffer))
+            elif estado_actual == 4:
+                agregar_token("Cadena", "3", buffer)
+            elif estado_actual == 10:
+                agregar_token("Operador Not", "10", buffer)
+            elif estado_actual == 11:
+                agregar_token("Operador de asignación", "18", buffer)
+                
         i += 1
 
     return tokens
