@@ -1,4 +1,4 @@
-Analizador léxico:
+Mini analizador léxico:
 
 En este archivo .py que es un analizador léxico como se indica su nombre, actualmente identifica los siguientes tokens (identificador, entero o real):
 
