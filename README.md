@@ -20,7 +20,7 @@ Presentación de Resultados:
 Al final, se presenta la salida del análisis léxico en forma tabular (usando la biblioteca tabulate), mostrando el tipo, fuente y mensaje asociado a cada token.
 También se presenta la ejecución del parser LR, mostrando la pila, la entrada y las acciones realizadas. Si en resultado del léxico se encuentra una carácter no declarado/definido en una parte antes del $ se detiene con la información disponible hasta ese punto. Esto es porque se rompe el bucle principal y no se completa la exploración de la cadena de entrada.
 
-Ejemplos:
+#Ejemplos:
 
 Ejemplo 1:
 
