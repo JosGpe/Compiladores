@@ -48,6 +48,8 @@ Ejemplo 2:
 
 ![image](https://github.com/JosGpe/Compiladores/assets/100324579/40551482-707b-4847-a240-eeac0061aa5d)
 
+Ejemplo 3:
+
 ![image](https://github.com/JosGpe/Compiladores/assets/100324579/113b6abb-964c-4eba-83e1-81e5cbeb58c6)
 
 ![image](https://github.com/JosGpe/Compiladores/assets/100324579/5c570c90-4846-4e97-8e50-dc156071b328)
