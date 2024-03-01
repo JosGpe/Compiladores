@@ -42,6 +42,8 @@ Ejemplo 1
 
 ![image](https://github.com/JosGpe/Compiladores/assets/100324579/a704cd49-129e-4b9f-a0e7-9f5a5883166e)
 
+Ejemplo 2:
+
 ![image](https://github.com/JosGpe/Compiladores/assets/100324579/8b91577b-3154-4b42-8487-ae499402b422)
 
 ![image](https://github.com/JosGpe/Compiladores/assets/100324579/40551482-707b-4847-a240-eeac0061aa5d)
