@@ -23,6 +23,7 @@ También se presenta la ejecución del parser LR, mostrando la pila, la entrada 
 Ejemplos:
 
 Ejemplo 1:
+
 ![image](https://github.com/JosGpe/Compiladores/assets/100324579/7e222524-fe7d-4e86-8632-ecbde8ac743a)
 
 ![image](https://github.com/JosGpe/Compiladores/assets/100324579/34d3c854-1832-44f0-963c-60550bfa992d)
